@@ -8,6 +8,7 @@ namespace StarterTodo.Model
 {
     public class TodoContext : DbContext
     {
+        DbSet<Todo> Todos { get; set; }
         public TodoContext(DbContextOptions<TodoContext> options) : base(options)
         {
         }
