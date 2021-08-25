@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace StarterTodo.Controllers
 {
     [ApiController]
-    public class TodoController : Controller
+    public class TodoController : ControllerBase
 
     {
         private readonly TodoContext _context;
